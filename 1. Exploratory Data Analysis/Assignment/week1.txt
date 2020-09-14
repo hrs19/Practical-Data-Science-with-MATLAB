@@ -1,0 +1,31 @@
+1. Which of the following statements that are true about data science? Select all that apply.                                1 / 1 point
+
+ - Data science is more relevant today because we have more data available
+ - Data science is used to help inform critical decisions
+ - An important part of data science is the ability to tell a compelling story from the data
+ 
+2. Which is NOT a typical question to ask when doing data science?
+ 
+  - Who will fix it?
+  
+3. Which of the following statements is true regarding the data science workflow.
+
+ - Once you are confident in your qualitative results, you can share your finding through visualizations, presentations, and reports.
+
+4. True/False: The three global tabs available in the MATLAB toolstrip are: Home, Plots, and Editor
+
+ - False
+ 
+5. In the MATLAB environment you create new files using the
+
+ - Home Tab
+ 
+6.
+
+7. In the live script analyzing tornado events, run the script and and move to "Part 3: Calculate Group Statistics." What month had the most tornadoes?
+
+ - May
+ 
+8. Continuing from the previous question, move to "Total damage by month" and select "sum" from the drop-down menu. Sort the cost table by sum_Total_Damage form largest to smallest. Look at the third most damaging month. What was the cost for that month?
+
+ - $88,605,000
