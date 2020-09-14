@@ -1,0 +1,53 @@
+1. The file BicycleCounts.csv is included with MATLAB. This means that this file got downloaded with MATLAB during the installation process to be used as an example. It is stored with the installation files, so you won't see it in your Current Folder, but don't worry, MATLAB still can access it. Import it into your Workspace with the help of the Import Tool. 
+                uiimport("BicycleCounts.csv")
+                
+ - Number
+ 
+2. You have imported BicycleCounts.csv into MATLAB. The table name should now be BicycleCounts. What is the variable name of the only categorical variable in the table BicycleCounts? 
+ - Day
+ 
+3. True or false: A categorical variable is useful when there is a continuum of possible values.
+ - False
+ 
+4. Which line of code would extract only the year out of the variable Timestamp and save it to the new column Year in the table BicycleCounts?  
+
+ - BicycleCounts.Year = year(BicycleCounts.Timestamp); 
+
+5. Which line of code would convert the data type of BicycleCounts.Year from double to categorical? 
+
+ - BicycleCounts.Year = categorical(BicycleCounts.Year)  
+ 
+6. When you look at the imported table BicycleCounts, how many rows does it have? 
+ - 9387
+ 
+7. How many variables are in the table BicycleCounts, when you import the whole dataset? 
+
+ - 5
+ 
+8. How do you load data from a MATLAB specific *.mat-file, like patients.mat into the workspace? [Select all that apply.] 
+
+ - uiimport(‘patients.mat’)
+ 
+ - load(‘patients.mat’) 
+
+ - load patients.mat 
+
+9. Consider having multiple files like the BicycleCounts.csv but for different years. When importing more than one file, it is possible to use the Import Tool with the first file and auto-generate code. Then you reuse the generated code to import the files from the other years. According to the picture below, where in the Import Tool, can you find the menu to generate the corresponding code?  
+
+ - c
+ 
+10. For the following questions, you’ll look at data from automobiles manufactured from 1970 – 1982. In the Module 2 folder, there is a file named "createAutoDataFile.mlx." Open this file and run it. It will create a csv-file named “Automobile Data.csv” in your current folder. Go to this reading if you have not yet downloaded the course files.
+
+Use the Import Tool, import only the “Model”, “Model_Year”, and “MPG” variables and name the table "Auto_threeColumns". How many rows are in the table?  
+
+ - 406
+ 
+11. In the previous task you've imported only three columns from the dataset and called the table "Auto_threeColumns". Now, import the entire table and name it "Auto_allColumns".
+
+Type “whos” at the command prompt and look at the size of both tables "Auto_threeColumns" from the previous task and "Auto_allColumns" that you just imported.
+
+How much less memory in percent does the reduced table use compared to the full table?
+
+Round to the nearest integer. When you enter your result, only enter the number and leave out the percentage sign.
+
+ - 28
